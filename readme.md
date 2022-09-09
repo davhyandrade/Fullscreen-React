@@ -2,6 +2,4 @@
 
 ## Fullscreen
 
-<img src="https://i.postimg.cc/G2mqT2jF/Gravar-2022-09-09-20-22-42-987-Trim.gif" width="100%">
-
-
+![Gravar_2022_09_09_20_22_42_987_Trim (2)](https://user-images.githubusercontent.com/109045257/189459041-47a9bdc7-5435-4e5c-8a76-06097454af7d.gif)
