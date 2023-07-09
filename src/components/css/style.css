@@ -15,6 +15,12 @@ body {
 main {
   width: 55vw;
 }
+@media only screen and (max-width: 800px) {
+  main {
+    width: 98%;
+    margin: 0 auto;
+  }
+}
 
 .field-carousel {
   width: 100%;
@@ -24,23 +30,19 @@ main {
   margin-top: 30px;
   border-radius: 5px 5px 0 0;
 }
+@media only screen and (max-width: 800px) {
+  .field-carousel {
+    margin-top: 3px;
+  }
+}
 .field-carousel div {
   display: flex;
-  -webkit-animation: carousel 15s linear infinite;
-          animation: carousel 15s linear infinite;
+  animation: carousel 15s linear infinite;
 }
 .field-carousel div img {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-}
-@-webkit-keyframes carousel {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-660%);
-  }
 }
 @keyframes carousel {
   from {

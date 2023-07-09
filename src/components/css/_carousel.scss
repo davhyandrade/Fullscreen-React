@@ -1,27 +1,33 @@
 .field-carousel {
-    width: 100%;
-    height: 90%;
+  width: 100%;
+  height: 90%;
+  display: flex;
+  overflow: hidden;
+  margin-top: 30px;
+  border-radius: 5px 5px 0 0;
+
+  @media only screen and (max-width: 800px) {
+    & {
+      margin-top: 3px;
+    }
+  }
+
+  div {
     display: flex;
-    overflow: hidden;
-    margin-top: 30px;
-    border-radius: 5px 5px 0 0;
-    
-    div {
-        display: flex;
-        animation: carousel 15s linear infinite;
+    animation: carousel 15s linear infinite;
 
-        img {
-            width: 100%;
-            object-fit: cover;
-        }
+    img {
+      width: 100%;
+      object-fit: cover;
     }
+  }
 
-    @keyframes carousel {
-        from {
-            transform: translateX(0);
-        }
-        to {
-            transform: translateX(-660%);
-        }
+  @keyframes carousel {
+    from {
+      transform: translateX(0);
     }
+    to {
+      transform: translateX(-660%);
+    }
+  }
 }

@@ -1,11 +1,17 @@
-
 body {
-    background-color: rgb(254, 254, 254);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background-color: rgb(254, 254, 254);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 main {
-    width: 55vw;
+  width: 55vw;
+
+  @media only screen and (max-width: 800px) {
+    & {
+      width: 98%;
+      margin: 0 auto;
+    }
+  }
 }
