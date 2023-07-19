@@ -1,3 +1,9 @@
+<div align="right">
+  <sub>Create in</sub>  
+  
+  `09/09/2022`
+</div>
+
 # Botão Fullscreen no React
 
 > Status: Concluded
